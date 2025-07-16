@@ -83,18 +83,22 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 		padding: 0 !important;
 	}
 
-.ast-site-title-wrap {
-  transition: none !important;
-  transform: none !important;
-  will-change: auto !important;
+/* Wymuszenie stabilnej pozycji dla nagłówka na mobile */
+.ast-header-break-point .main-header-bar {
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  will-change: transform;
 }
 
-.ast-header-break-point .main-header-bar {
-  position: sticky;
-  top: 0;
-  z-index: 9999;
-  background: white; /* lub inny kolor tła */
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* lekki cień */
+/* Dodatkowo blokujemy efekty transform dla tytułu */
+.ast-site-title-wrap {
+  transform: none !important;
+  transition: none !important;
+}
+
+/* Ewentualne usunięcie animacji mobilnego menu */
+.ast-header-break-point .ast-mobile-popup-drawer.active {
+  transition: none !important;
 }
 </style>
 <link rel="stylesheet" id="wp-block-library-css" href="https://martynakiljan.github.io/ElysianBeauty-Website-WP/wp-includes/css/dist/block-library/style.min.css?ver=6.8.2" media="all">
