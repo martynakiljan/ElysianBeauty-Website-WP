@@ -36,7 +36,7 @@ This is a static version of a WordPress site:
 - All content is pre-generated and hosted as HTML/CSS/JS
 - Useful for showcasing work or creating a simple, fast web presence
 
-- 
+  
 <img width="1388" height="695" alt="Zrzut ekranu 2025-07-16 o 23 05 42" src="https://github.com/user-attachments/assets/0c4c2755-9cf3-4731-8e3e-37eeff54bce9" />
 
 
