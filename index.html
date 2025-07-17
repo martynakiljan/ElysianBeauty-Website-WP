@@ -20,7 +20,7 @@
 <meta property="og:title" content="Home - ElysianBeauty ">
 <meta property="og:description" content="Unleash Your Inner Glow Luxury beauty services tailored just for you at ElysianBeauty Luzern. Book Now Elevate Your Beauty Experience Enjoy a curated selection">
 <meta property="article:published_time" content="2025-07-16T15:26:25+00:00">
-<meta property="article:modified_time" content="2025-07-16T22:32:17+00:00">
+<meta property="article:modified_time" content="2025-07-17T11:36:01+00:00">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Home - ElysianBeauty ">
 <meta name="twitter:description" content="Unleash Your Inner Glow Luxury beauty services tailored just for you at ElysianBeauty Luzern. Book Now Elevate Your Beauty Experience Enjoy a curated selection">
@@ -84,7 +84,7 @@ window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/16
 :root :where(.wp-block-pullquote){font-size: 1.5em;line-height: 1.6;}</style>
 <link rel="stylesheet" id="uagb-block-positioning-css-css" href="https://martynakiljan.github.io/ElysianBeauty-Website-WP/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/spectra-block-positioning.min.css?ver=2.19.11" media="all">
 <link rel="stylesheet" id="uagb-slick-css-css" href="https://martynakiljan.github.io/ElysianBeauty-Website-WP/wp-content/plugins/ultimate-addons-for-gutenberg/assets/css/slick.min.css?ver=2.19.11" media="all">
-<link rel="stylesheet" id="uag-style-24-css" href="https://martynakiljan.github.io/ElysianBeauty-Website-WP/wp-content/uploads/uag-plugin/assets/0/uag-css-24.css?ver=1752705224" media="all">
+<link rel="stylesheet" id="uag-style-24-css" href="https://martynakiljan.github.io/ElysianBeauty-Website-WP/wp-content/uploads/uag-plugin/assets/0/uag-css-24.css?ver=1752752263" media="all">
 <!--[if IE]>
 <script src="https://martynakiljan.github.io/ElysianBeauty-Website-WP/wp-content/themes/astra/assets/js/minified/flexibility.min.js?ver=4.11.6" id="astra-flexibility-js"></script>
 <script id="astra-flexibility-js-after">
@@ -102,13 +102,75 @@ flexibility(document.documentElement);
 <link rel="alternate" title="oEmbed (JSON)" type="application/json+oembed" href="https://martynakiljan.github.io/ElysianBeauty-Website-WP/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fmartynakiljan.github.io%2FElysianBeauty-Website-WP%2F">
 <link rel="alternate" title="oEmbed (XML)" type="text/xml+oembed" href="https://martynakiljan.github.io/ElysianBeauty-Website-WP/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fhttps%3A%2F%2Fmartynakiljan.github.io%2FElysianBeauty-Website-WP%2F#038;format=xml">
 <!-- start Simple Custom CSS and JS -->
-<style>.ast-header-break-point .main-header-bar {
-  position: sticky;
-  top: 0;
-  z-index: 9999;
+<style>@media (min-width: 921px) {
+
+  .hide-desktop {
+    display: none!important;
+  }
 }</style>
 <!-- end Simple Custom CSS and JS -->
-<style id="uagb-style-conditional-extension">@media (min-width: 1025px){body .uag-hide-desktop.uagb-google-map__wrap,body .uag-hide-desktop{display:none !important}}@media (min-width: 768px) and (max-width: 1024px){body .uag-hide-tab.uagb-google-map__wrap,body .uag-hide-tab{display:none !important}}@media (max-width: 767px){body .uag-hide-mob.uagb-google-map__wrap,body .uag-hide-mob{display:none !important}}</style>
+
+        <script type="text/javascript">var jQueryMigrateHelperHasSentDowngrade = false;
+
+			window.onerror = function( msg, url, line, col, error ) {
+				// Break out early, do not processing if a downgrade reqeust was already sent.
+				if ( jQueryMigrateHelperHasSentDowngrade ) {
+					return true;
+                }
+
+				var xhr = new XMLHttpRequest();
+				var nonce = 'c4291c7a05';
+				var jQueryFunctions = [
+					'andSelf',
+					'browser',
+					'live',
+					'boxModel',
+					'support.boxModel',
+					'size',
+					'swap',
+					'clean',
+					'sub',
+                ];
+				var match_pattern = /\)\.(.+?) is not a function/;
+                var erroredFunction = msg.match( match_pattern );
+
+                // If there was no matching functions, do not try to downgrade.
+                if ( null === erroredFunction || typeof erroredFunction !== 'object' || typeof erroredFunction[1] === "undefined" || -1 === jQueryFunctions.indexOf( erroredFunction[1] ) ) {
+                    return true;
+                }
+
+                // Set that we've now attempted a downgrade request.
+                jQueryMigrateHelperHasSentDowngrade = true;
+
+				xhr.open( 'POST', 'https://martynakiljan.github.io/ElysianBeauty-Website-WP/wp-admin/admin-ajax.php' );
+				xhr.setRequestHeader( 'Content-Type', 'application/x-www-form-urlencoded' );
+				xhr.onload = function () {
+					var response,
+                        reload = false;
+
+					if ( 200 === xhr.status ) {
+                        try {
+                        	response = JSON.parse( xhr.response );
+
+                        	reload = response.data.reload;
+                        } catch ( e ) {
+                        	reload = false;
+                        }
+                    }
+
+					// Automatically reload the page if a deprecation caused an automatic downgrade, ensure visitors get the best possible experience.
+					if ( reload ) {
+						location.reload();
+                    }
+				};
+
+				xhr.send( encodeURI( 'action=jquery-migrate-downgrade-version&_wpnonce=' + nonce ) );
+
+				// Suppress error alerts in older browsers
+				return true;
+			}</script>
+
+		<style id="uagb-style-conditional-extension">@media (min-width: 1025px){body .uag-hide-desktop.uagb-google-map__wrap,body .uag-hide-desktop{display:none !important}}@media (min-width: 768px) and (max-width: 1024px){body .uag-hide-tab.uagb-google-map__wrap,body .uag-hide-tab{display:none !important}}@media (max-width: 767px){body .uag-hide-mob.uagb-google-map__wrap,body .uag-hide-mob{display:none !important}}</style>
 </head>
 
 <body itemtype="https://schema.org/WebPage" itemscope="itemscope" class="home wp-singular page-template-default page page-id-24 wp-theme-astra sp-easy-accordion-enabled ast-desktop ast-plain-container ast-no-sidebar astra-4.11.6 ast-single-post ast-inherit-site-logo-transparent ast-theme-transparent-header ast-hfb-header ast-normal-title-enabled">
@@ -144,6 +206,7 @@ flexibility(document.documentElement);
 <li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="https://martynakiljan.github.io/ElysianBeauty-Website-WP/about/" class="menu-link">About</a></li>
 <li id="menu-item-34" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="https://martynakiljan.github.io/ElysianBeauty-Website-WP/services/" class="menu-link">Services</a></li>
 <li id="menu-item-1015" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1015"><a href="https://martynakiljan.github.io/ElysianBeauty-Website-WP/prices/" class="menu-link">Prices</a></li>
+<li id="menu-item-1128" class="hide-desktop menu-item menu-item-type-post_type menu-item-object-page menu-item-1128"><a href="https://martynakiljan.github.io/ElysianBeauty-Website-WP/contact/" class="menu-link">Contact</a></li>
 </ul></div></nav></div></div>		</div>
 				<div class="ast-builder-layout-element ast-flex site-header-focus-item ast-header-button-1" data-section="section-hb-button-1">
 			<div class="ast-builder-button-wrap ast-builder-button-size-">
@@ -196,6 +259,7 @@ flexibility(document.documentElement);
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="https://martynakiljan.github.io/ElysianBeauty-Website-WP/about/" class="menu-link">About</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="https://martynakiljan.github.io/ElysianBeauty-Website-WP/services/" class="menu-link">Services</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1015"><a href="https://martynakiljan.github.io/ElysianBeauty-Website-WP/prices/" class="menu-link">Prices</a></li>
+<li class="hide-desktop menu-item menu-item-type-post_type menu-item-object-page menu-item-1128"><a href="https://martynakiljan.github.io/ElysianBeauty-Website-WP/contact/" class="menu-link">Contact</a></li>
 </ul></div></nav></div></div>		</div>
 					</div>
 			</div>
@@ -470,6 +534,7 @@ flexibility(document.documentElement);
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-33"><a href="https://martynakiljan.github.io/ElysianBeauty-Website-WP/about/" class="menu-link">About</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-34"><a href="https://martynakiljan.github.io/ElysianBeauty-Website-WP/services/" class="menu-link">Services</a></li>
 <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1015"><a href="https://martynakiljan.github.io/ElysianBeauty-Website-WP/prices/" class="menu-link">Prices</a></li>
+<li class="hide-desktop menu-item menu-item-type-post_type menu-item-object-page menu-item-1128"><a href="https://martynakiljan.github.io/ElysianBeauty-Website-WP/contact/" class="menu-link">Contact</a></li>
 </ul></div></nav></div>			</div>
 							</div>
 											<div class="site-footer-primary-section-2 site-footer-section site-footer-section-2">
@@ -528,7 +593,7 @@ flexibility(document.documentElement);
 <script src="https://martynakiljan.github.io/ElysianBeauty-Website-WP/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/testimonial.min.js?ver=2.19.11" id="uagb-testimonial-js-js"></script>
 <script src="https://martynakiljan.github.io/ElysianBeauty-Website-WP/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/imagesloaded.min.js?ver=2.19.11" id="uagb-imagesloaded-js"></script>
 <script src="https://martynakiljan.github.io/ElysianBeauty-Website-WP/wp-content/plugins/ultimate-addons-for-gutenberg/assets/js/slick.min.js?ver=2.19.11" id="uagb-slick-js-js"></script>
-<script src="https://martynakiljan.github.io/ElysianBeauty-Website-WP/wp-content/uploads/uag-plugin/assets/0/uag-js-24.js?ver=1752705224" id="uag-script-24-js"></script>
+<script src="https://martynakiljan.github.io/ElysianBeauty-Website-WP/wp-content/uploads/uag-plugin/assets/0/uag-js-24.js?ver=1752752263" id="uag-script-24-js"></script>
 <script src="https://martynakiljan.github.io/ElysianBeauty-Website-WP/wp-includes/js/dist/dom-ready.min.js?ver=f77871ff7694fffea381" id="wp-dom-ready-js"></script>
 <script id="zipwp-client-preview-js-extra">var zipwp_client_preview = {"AstColorPaletteVarPrefix":"--ast-global-color-","AstEleColorPaletteVarPrefix":["ast-global-color-0","ast-global-color-1","ast-global-color-2","ast-global-color-3","ast-global-color-4","ast-global-color-5","ast-global-color-6","ast-global-color-7","ast-global-color-8"]};</script>
 <script src="https://martynakiljan.github.io/ElysianBeauty-Website-WP/wp-content/mu-plugins/zipwp-client-mu/assets/build/template-preview/main.js?ver=df5c51ec29d5c50df5b1" id="zipwp-client-preview-js"></script>
